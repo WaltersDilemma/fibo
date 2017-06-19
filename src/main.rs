@@ -47,15 +47,15 @@ if rand::random() { // generates a boolean
     io::stdin().read_line(&mut anzahl)
         .ok()
         .expect("Fehler beim Lesen der Zeile");
-        let anzahl: u32 = anzahl.trim().parse()
+        let anzahl: u64 = anzahl.trim().parse()
          .ok()
          .expect("Bitte eine Zahl eintippen!");
 
     println!("Die Anzahl: {}", anzahl);
     let mut i = 1;
-    let mut fst = 0;
-    let mut sec = 1;
-    let mut res;
+    let mut fst: u64 = 0;
+    let mut sec: u64 = 1;
+    let mut res: u64;
     loop {
         res = fst + sec;
         println!("Die {}. Zahl ist:{}",i,res);i+=1;
