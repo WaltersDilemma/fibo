@@ -7,7 +7,7 @@ use rand::Rng;
 
 fn main() {
 
-// some random comment
+
 
     /*
     let x = rand::random::<u8>();
