@@ -6,6 +6,9 @@ use std::cmp::Ordering;
 use rand::Rng;
 
 fn main() {
+
+// some random comment
+
     /*
     let x = rand::random::<u8>();
 println!("{}", x);
